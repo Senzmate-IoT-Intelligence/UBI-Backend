@@ -25,6 +25,7 @@ const TripSchema = mongoose.Schema({
   },
   distance_travelled: {
     type: String,
+    required:true
   },
 })
 
